@@ -49,7 +49,7 @@ A quick tip, retraining the model with the data of the stock you want to predict
 4. Enter ticker.
 5. Enter the date. (Please note that this model predicts the closing price of the next day, so please enter the date one day before the date you want to predict.)
 6. And Voila
-<br/><img src='https://res.cloudinary.com/dwle3oqep/image/upload/v1717200496/terminal_bsdhnh.gif' alt='Terminal'>
+<br/><img src='https://res.cloudinary.com/dwle3oqep/image/upload/v1717205866/terminal_1_do0o9o.gif' alt='Terminal'>
 
 ## Tests and Accuracy:
 ### Ridge Model ALPHA=1.0 Prediction Results for AAPL

@@ -1,5 +1,6 @@
 import yfinance as yf
 import pickle
+import datetime
 def pred_share_price(symbol:str, end:str, model_name:str, period:str='max', interval:str='1d', start:str=''):
     if start == "":
         data = yf.download(symbol.upper(), period=period.lower(), end=end, interval=interval, auto_adjust=True)  
@@ -21,4 +22,5 @@ if __name__ == '__main__':
     date = str(input("Please enter the date you want to forecast the stock price in YYYY-MM-DD format: "))
 
     pred = pred_share_price(symbol, date, model_name=model_select)
-    print(f'The predicted closing price for {symbol} stock on {date} is: {pred[0]:.2f}$')
+    predicted_date = datetime.datetime.strptime(date, '%Y-%m-%d') + datetime.timedelta(days=1)
+    print(f'The predicted closing price for {symbol} stock on {predicted_date} is: {pred[0]:.2f}$')
