@@ -1,4 +1,4 @@
-<img src='.images/banner.png'>
+<img src='https://res.cloudinary.com/dwle3oqep/image/upload/v1717200491/banner_pp1n9k.png'>
 
 
 # <center><b>STOCK MARKET PRICE PREDICTION</b></center>
@@ -43,7 +43,7 @@ This model predicts the <b><u>next day's closing price</u></b> of a stock with u
 ## Usage:
 ### For Train a Model:
 1. Open <b>train_model.ipynb with</b> jupyter or colab.
-2. Change this section according to your needs: <br/> <img src='.images/carbon2.png'>
+2. Change this section according to your needs: <br/> <img src='https://res.cloudinary.com/dwle3oqep/image/upload/v1717200491/carbon2_tiqhdm.png'>
 3. And press ▶ Run All.
 
 ### For Prediction:
@@ -54,11 +54,11 @@ A quick tip, retraining the model with the data of the stock you want to predict
 4. Enter ticker.
 5. Enter the date. (Please note that this model predicts the closing price of the next day, so please enter the date one day before the date you want to predict.)
 6. And Voila
-<br/><img src='.images/terminal.gif'>
+<br/><img src='https://res.cloudinary.com/dwle3oqep/image/upload/v1717200496/terminal_bsdhnh.gif' alt='Terminal'>
 
 ## Tests and Accuracy:
 ### Ridge Model ALPHA=1.0 Prediction Results for AAPL
-<img src='.images/model_alpha_1_0_pred_chart.jpg'><br/>
+<img src='https://res.cloudinary.com/dwle3oqep/image/upload/v1717200491/model_alpha_1_0_pred_chart_lykoxs.jpg'><br/>
 
 * <b>Alpha Number: 1.0</b>
 * <b>Model Score</b>(X_test,y_test): <b>0.8898801408787523</b>
@@ -66,7 +66,7 @@ A quick tip, retraining the model with the data of the stock you want to predict
 * <b>MAE: 2.1878614<b> 
 
 ### Ridge Model ALPHA=0.04 Prediction Results for AAPL
-<img src='.images/alpha_04_pred_chart.jpg'>
+<img src='https://res.cloudinary.com/dwle3oqep/image/upload/v1717200491/alpha_04_pred_chart_hafsti.jpg'>
 
 * <b>Alpha Number: 0.04</b>
 * <b>Model Score</b>(X_test,y_test): <b>0.9120292389386958</b>
