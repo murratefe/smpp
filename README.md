@@ -4,8 +4,10 @@
 # <center><b>STOCK MARKET PRICE PREDICTION</b></center>
 ## A model that utilizes indicators and other data from the stock market to predict the closing price of a stock for the following day.
 <center>
+<div>
 <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/murratefe/smpp"><img alt="GitHub Downloads (all assets, all releases)" src="https://img.shields.io/github/downloads/murratefe/smpp/total"><img alt="Python Version" src="https://img.shields.io/badge/python-v3.10.11-rgb(0%2C210%2C0)"><img alt="Project Type" src="https://img.shields.io/badge/type-machine_learning-purple"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/murratefe/smpp"><img alt="License MIT" src="https://img.shields.io/badge/license-MIT-blue"><a href="https://buymeacoffee.com/murratefe"><img alt="Static Badge" src="https://img.shields.io/badge/%24-donate-rgb(255%2C20%2C147)">
 </a>
+</div>
 </center>
 
 
